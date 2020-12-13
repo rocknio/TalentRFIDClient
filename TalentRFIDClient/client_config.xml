@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configure>
+  <!--ARV Server连接信息 (url是server端的连接信息，reconnect断线后重连时间 s) -->
+  <Server url="ws://127.0.0.1:7777/ws" reconnect="15"/>
+  <Reader freq="922.5,920,925"/>
+  <UPS com_port="com7" baudrate="9600"/>
+</configure>
